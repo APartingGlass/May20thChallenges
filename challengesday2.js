@@ -24,11 +24,11 @@ console.assert(y >= -25 && y <= 30)
 var score = 0
 
 function increaseScore(playerScore) {
-    return playerScore++
+    return (playerScore++)
 }
 
 function decreaseScore(playerScore) {
-    return playerScore--
+    return (playerScore--)
 }
 
 // Challenge one
